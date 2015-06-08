@@ -1,6 +1,8 @@
 MongoDB ReplicaSet Dockerfile
 =============================
 
+[![Join the chat at https://gitter.im/inlight-media/docker-mongodb-replica-set](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/inlight-media/docker-mongodb-replica-set?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A Dockerfile and config for launching a MongoDB contatiner with 3 mongo processes that act as a ReplicaSet. There are config files for each mongo instance that are copied to the container. The shell script handles creation of the data directories and starting mongo.
 
 ### Notes
